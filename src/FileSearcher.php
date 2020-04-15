@@ -5,6 +5,7 @@ declare(strict_types = 1);
 namespace Wauxhall\FileSearcher;
 
 use Wauxhall\FileSearcher\Core\FileLib;
+use function Wauxhall\FileSearcher\Helpers\striposAll;
 
 class FileSearcher extends FileLib
 {

@@ -1,6 +1,10 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use function Wauxhall\FileSearcher\Helpers\isPathAnUrl;
+use function Wauxhall\FileSearcher\Helpers\resolveDotSeparatedPath;
+use function Wauxhall\FileSearcher\Helpers\storage_path;
+use function Wauxhall\FileSearcher\Helpers\striposAll;
 
 class HelpersTest extends TestCase
 {

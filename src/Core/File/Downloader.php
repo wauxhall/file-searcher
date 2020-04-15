@@ -4,6 +4,9 @@ namespace Wauxhall\FileSearcher\Core\File;
 
 use RuntimeException;
 use Wauxhall\FileSearcher\Contracts\IDownloader;
+use function Wauxhall\FileSearcher\Helpers\curl_cert_path;
+use function Wauxhall\FileSearcher\Helpers\isPathAnUrl;
+use function Wauxhall\FileSearcher\Helpers\storage_path;
 
 class Downloader implements IDownloader
 {

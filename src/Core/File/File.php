@@ -6,6 +6,8 @@ use Generator;
 use Wauxhall\FileSearcher\Contracts\ILoader;
 use Wauxhall\FileSearcher\Contracts\IValidator;
 use Wauxhall\FileSearcher\Validation\Validator;
+use function Wauxhall\FileSearcher\Helpers\isPathAnUrl;
+use function Wauxhall\FileSearcher\Helpers\storage_path;
 
 class File
 {

@@ -1,5 +1,7 @@
 <?php
 
+namespace Wauxhall\FileSearcher\Helpers;
+
 /*
 |--------------------------------------------------------------------
 | HELPER FUNCTIONS

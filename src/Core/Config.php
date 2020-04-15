@@ -3,6 +3,7 @@
 namespace Wauxhall\FileSearcher\Core;
 
 use Wauxhall\FileSearcher\Contracts\IConfig;
+use function Wauxhall\FileSearcher\Helpers\resolveDotSeparatedPath;
 
 abstract class Config implements IConfig
 {

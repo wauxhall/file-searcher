@@ -4,6 +4,7 @@ namespace Wauxhall\FileSearcher\Core\Config;
 
 use RuntimeException;
 use Wauxhall\FileSearcher\Core\Config;
+use function Wauxhall\FileSearcher\Helpers\config_path;
 
 class Yaml extends Config
 {

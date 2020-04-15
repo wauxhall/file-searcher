@@ -2,6 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 use Wauxhall\FileSearcher\Core\File\Downloader;
+use function Wauxhall\FileSearcher\Helpers\storage_path;
 
 class DownloaderTest extends TestCase
 {
