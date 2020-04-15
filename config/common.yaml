@@ -1,0 +1,6 @@
+validation:
+  allowed_mime_types:
+    - image/jpeg
+    - text/plain
+  min_size: 20
+  max_size: 2000
